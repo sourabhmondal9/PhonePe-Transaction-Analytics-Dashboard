@@ -1,210 +1,276 @@
-# PhonePe Transaction Analytics Dashboard
+# 📊 PhonePe Transaction Analytics Dashboard
 
-## Project Overview
-This project is an interactive Power BI dashboard designed to analyze PhonePe-style digital payment activity across multiple financial services.
+> An interactive **Power BI dashboard** for analyzing digital payment transactions, service performance, transaction trends, payment status, and business insights.
 
-The dashboard provides a consolidated view of transaction activity and then allows deeper analysis across:
+---
 
-- Insurance
-- Loans
-- Money Transfer
-- Recharge & Bills
+## 📌 Project Overview
 
-The objective is to turn transaction-level data into a business-friendly dashboard that helps users understand transaction volume, transaction value, payment status, service performance, transaction reasons, monthly trends, and service/type-level patterns.
+This project focuses on analyzing **PhonePe transaction data** using Microsoft Power BI.
 
-> **Note:** This is a analytics project. The dashboard should not be interpreted as an official PhonePe business report unless the underlying dataset is officially sourced and authorized.
------
+The dashboard transforms transaction-level data into an interactive analytical report covering multiple digital payment services:
 
+- 🛡️ Insurance
+- 💰 Loans
+- 💸 Money Transfer
+- 📱 Recharge & Bills
 
-## Dashboard Pages
-The Power BI file contains five main pages:
+The objective is to understand transaction behavior, identify trends, compare service performance, and generate meaningful business insights from the data.
 
-1. **Home** – Overall transaction overview and cross-service analysis
-2. **Insurance** – Insurance premium and transaction analysis
-3. **Loans** – Loan amount and loan-type analysis
-4. **Money Transfer** – Money-transfer value, status, reason, and transfer-type analysis
-5. **Recharge & Bills** – Recharge/bill payment value, status, reason, and recharge-type analysis
------
+---
 
-## Business Problem
-Digital payment platforms generate large volumes of transactions across different services. A business analyst needs a clear way to answer questions such as:
+## 🎯 Business Problem
 
-- How many transactions are taking place?
-- What is the total transaction value?
-- How are transactions distributed across services?
-- Which services contribute the most transaction value?
-- How does transaction activity change over time?
-- What are the major transaction reasons?
-- What proportion of transactions are successful or failed?
-- Which insurance, loan, transfer, or recharge categories contribute the most value?
+Digital payment platforms generate a large amount of transaction data every day.
 
-This dashboard brings these questions into a single interactive analytical view.
------
+Without proper analysis, it can be difficult to understand:
 
+- How transaction activity changes over time
+- Which services generate the highest transaction value
+- How many transactions are successful or failed
+- Which categories contribute the most value
+- What are the most common transaction reasons
+- Which service areas require further investigation
 
-## Business Questions
+This dashboard provides an interactive way to explore these questions and convert raw transaction data into useful business information.
 
-### Overall / Home
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+- Analyze overall transaction performance
+- Measure total transaction volume and value
+- Analyze successful and failed transactions
+- Identify monthly transaction trends
+- Compare different digital payment services
+- Analyze insurance transactions
+- Analyze loan transactions
+- Analyze money-transfer activity
+- Analyze recharge and bill payments
+- Identify high-performing categories
+- Generate actionable business insights
+
+---
+
+## 📋 Business Questions
+
+### 🏠 Overall Analysis
+
 1. What is the total number of transactions?
 2. What is the total transaction amount?
-3. How many successful transactions are recorded?
-4. How many failed transactions are recorded?
-5. How does transaction value change by month?
+3. How many transactions were successful?
+4. How many transactions failed?
+5. How does transaction value change over time?
 6. Which service contributes the highest transaction value?
 7. What are the most common transaction reasons?
 
-### Insurance
-1. What is the total insurance premium amount?
-2. How does insurance premium value change over time?
-3. What is the transaction/reason distribution?
-4. What is the payment-status distribution?
-5. Which insurance type contributes the highest premium value?
-6. How do Bike, Car, Term Life, and Health insurance compare?
+### 🛡️ Insurance Analysis
 
-### Loans
+1. What is the total insurance premium?
+2. How does insurance activity change over time?
+3. Which insurance type contributes the highest value?
+4. What is the payment-status distribution?
+5. Which insurance categories have the highest transaction activity?
+
+### 💰 Loans Analysis
+
 1. What is the total loan amount?
-2. How does loan value change by month?
-3. What is the payment-status distribution?
-4. What are the major loan-related transaction reasons?
-5. Which loan type contributes the highest loan amount?
-6. How do Gold Loan, Auto Loan, Mutual Funds, and Credit Score-related categories compare?
-
-### Money Transfer
-1. What is the total money-transfer amount?
-2. How does transfer value change by month?
-3. What are the most common transfer reasons?
+2. Which loan type contributes the highest value?
+3. How does loan activity change over time?
 4. What is the payment-status distribution?
-5. Which transfer type contributes the highest transaction value?
-6. How does transaction activity vary over time?
+5. Which loan categories have the highest transaction activity?
 
-### Recharge & Bills
+### 💸 Money Transfer Analysis
+
+1. What is the total money-transfer amount?
+2. Which transfer type contributes the highest value?
+3. How does transfer activity change over time?
+4. What are the most common transfer reasons?
+5. What is the successful vs failed transaction distribution?
+
+### 📱 Recharge & Bills Analysis
+
 1. What is the total recharge and bill-payment amount?
-2. How does payment value change by month?
-3. What is the payment-status distribution?
-4. What are the major payment reasons?
-5. Which recharge/bill type contributes the highest amount?
-6. How do Electricity, Mobile, DTH, and Cable TV compare?
------
+2. Which recharge/bill category contributes the highest value?
+3. How does payment activity change over time?
+4. What are the most common payment reasons?
+5. What is the successful vs failed payment distribution?
 
-## Key KPIs
+---
 
-### Overall Dashboard
-| KPI                     | Purpose                                    |
-|-------------------------|--------------------------------------------|
-| Total Transactions      | Measures overall transaction volume        |
-| Successful Transactions | Measures completed transaction activity    |
-| Failed Transactions     | Measures unsuccessful transaction activity |
-| Total Amount            | Measures total transaction value           |
+## 📈 Key Performance Indicators
 
-### Service-Level KPIs
-| Service          | Main KPI              |
-|------------------|-----------------------|
-| Insurance        | Total Premium         |
-| Loans            | Total Loan Amount     |
-| Money Transfer   | Total Transfer Amount |
-| Recharge & Bills | Total Payment Amount  |
+| KPI                      | Description                           |
+|--------------------------|---------------------------------------|
+| Total Transactions       | Total number of transactions          |
+| Total Transaction Amount | Total value of transactions           |
+| Successful Transactions  | Number of successful transactions     |
+| Failed Transactions      | Number of failed transactions         |
+| Total Insurance Premium  | Total insurance premium value         |
+| Total Loan Amount        | Total loan amount                     |
+| Total Money Transfer     | Total money-transfer value            |
+| Total Recharge & Bills   | Total recharge and bill-payment value |
 
-Additional analytical dimensions include payment status, transaction reason, service/type, and monthly transaction value.
------
+---
 
+## 🛠️ Tools & Technologies
 
-## Data Model / Analytical Dimensions
+| Technology               | Purpose                                   |
+|--------------------------|-------------------------------------------|
+| **Microsoft Power BI**   | Dashboard development and visualization   |
+| **Power Query**          | Data transformation and preparation       |
+| **DAX**                  | Measures and analytical calculations      |
+| **Excel / Tabular Data** | Data source                               |
+| **GitHub**               | Project documentation and version control |
 
-The report uses service-specific analytical areas including:
+---
+
+## 🔄 Data Analysis Workflow
+
+The project follows a standard data-analysis workflow:
+
+```text
+Raw Data
+   ↓
+Data Cleaning
+   ↓
+Data Transformation
+   ↓
+Data Modeling
+   ↓
+Data Visualization
+   ↓
+Dashboard
+   ↓
+Business Insights
+```
+
+### 1. Data Preparation
+
+The transaction data was prepared for analysis by organizing the required fields and ensuring that the data could be analyzed across different services and time periods.
+
+### 2. Data Transformation
+
+Power Query was used for data preparation and transformation where required.
+
+### 3. Data Modeling
+
+The report contains service-specific analytical areas including:
+
 - `All_Transactions`
 - `Insurance`
 - `Loans`
 - `Money_Transfer`
 - `Recharge_Bills`
 
-Important fields visible in the report include:
-- Date
-- Transaction ID
-- Amount
-- Reason
-- Payment Status
-- Service
-- Insurance Type
-- Loan Type
-- Transfer Type
-- Recharge Type
-- Premium
-- Loan Amount
-------
+### 4. Data Analysis
 
-## Analysis Workflow
-The project follows a typical data-analysis workflow:
+DAX and Power BI visuals were used to calculate and analyze transaction metrics, trends, categories, and payment status.
 
-1. **Data Collection** – Transaction/service data is used as the analytical source.
-2. **Data Preparation** – Data is prepared for reporting and analysis.
-3. **Data Modeling** – Service-specific tables and analytical fields are organized for Power BI.
-4. **Measure Creation** – Transaction amount and transaction-count metrics are used in the dashboard.
-5. **Visualization** – KPIs, trends, categorical comparisons, and status analysis are presented through Power BI visuals.
-6. **Business Analysis** – The dashboard is used to identify trends, high-value categories, and transaction-status patterns.
------
+### 5. Visualization
 
-## Dashboard Preview
-Add screenshots of your final dashboard here:
+Interactive charts, KPI cards, filters, and category-based visualizations were used to create the final dashboard.
 
-```text
-screenshots/
-├── home.png
-├── insurance.png
-├── loans.png
-├── money-transfer.png
-└── recharge-bills.png
-```
-------
+---
 
-## Key Insights
-The final insights should be written from the actual numbers shown in the dashboard. Avoid inventing values.
+# 📊 Dashboard
 
-Recommended insight format:
-### 1. Overall Transaction Performance
-- Total transaction volume: **[insert value]**
-- Total transaction value: **[insert value]**
-- Successful transactions: **[insert value]**
-- Failed transactions: **[insert value]**
+The Power BI report contains five major analytical pages.
 
-### 2. Service Performance
-- Highest-value service: **[insert service]**
-- Highest transaction-volume service: **[insert service]**
-- Lowest/highest contribution: **[insert result]**
+## 🏠 1. Home Dashboard
 
-### 3. Monthly Trend
-- Highest transaction-value month: **[insert month]**
-- Lowest transaction-value month: **[insert month]**
-- Major increase/decrease period: **[insert period]**
+Provides an overall view of transaction activity and service performance.
 
-### 4. Insurance
-- Highest-value insurance type: **[insert type]**
-- Dominant payment status: **[insert status]**
-- Highest-premium period: **[insert month]**
+![Home Dashboard](screenshots/home.png)
 
-### 5. Loans
-- Highest-value loan category: **[insert type]**
-- Highest loan-value month: **[insert month]**
-- Dominant payment status: **[insert status]**
+---
 
-### 6. Money Transfer
-- Highest-value transfer type: **[insert type]**
-- Highest transfer-value month: **[insert month]**
-- Dominant payment status/reason: **[insert result]**
+## 🛡️ 2. Insurance Analysis
 
-### 7. Recharge & Bills
-- Highest-value recharge/bill category: **[insert type]**
-- Highest payment-value month: **[insert month]**
-- Dominant payment status: **[insert status]**
------
+Analyzes insurance premium values, insurance types, transaction trends, and payment status.
 
-## Tools & Technologies
+![Insurance Dashboard](screenshots/insurance.png)
 
-- Microsoft Power BI
-- Data Visualization
-- Excel data source
------
+---
 
-## Project Structure
+## 💰 3. Loans Analysis
+
+Analyzes loan amounts, loan categories, monthly trends, and payment status.
+
+![Loans Dashboard](screenshots/loans.png)
+
+---
+
+## 💸 4. Money Transfer Analysis
+
+Analyzes transfer amount, transfer type, transaction reasons, trends, and payment status.
+
+![Money Transfer Dashboard](screenshots/money-transfer.png)
+
+---
+
+## 📱 5. Recharge & Bills Analysis
+
+Analyzes recharge and bill-payment amounts, categories, trends, and payment status.
+
+![Recharge & Bills Dashboard](screenshots/recharge-bills.png)
+
+---
+
+# 💡 Key Insights
+
+The following section should contain insights calculated from the actual dashboard.
+
+### 📊 Overall Performance
+
+- Total transactions: **[Insert actual value]**
+- Total transaction amount: **[Insert actual value]**
+- Successful transactions: **[Insert actual value]**
+- Failed transactions: **[Insert actual value]**
+
+### 🏆 Service Performance
+
+- Highest transaction-value service: **[Insert service]**
+- Highest transaction-volume service: **[Insert service]**
+- Lowest transaction-value service: **[Insert service]**
+
+### 📅 Monthly Trend
+
+- Highest transaction-value month: **[Insert month]**
+- Lowest transaction-value month: **[Insert month]**
+- Major trend observed: **[Insert observation]**
+
+### 🛡️ Insurance
+
+- Highest-performing insurance type: **[Insert type]**
+- Highest premium month: **[Insert month]**
+- Key observation: **[Insert insight]**
+
+### 💰 Loans
+
+- Highest-performing loan category: **[Insert category]**
+- Highest loan-value month: **[Insert month]**
+- Key observation: **[Insert insight]**
+
+### 💸 Money Transfer
+
+- Highest-performing transfer type: **[Insert type]**
+- Highest transfer-value month: **[Insert month]**
+- Key observation: **[Insert insight]**
+
+### 📱 Recharge & Bills
+
+- Highest-performing category: **[Insert category]**
+- Highest payment-value month: **[Insert month]**
+- Key observation: **[Insert insight]**
+
+> **Note:** The insights above should be replaced with actual values from the dashboard. Avoid publishing estimated or invented numbers.
+
+---
+
+# 📁 Project Structure
 
 ```text
 PhonePe-Transaction-Analytics-Dashboard/
@@ -225,39 +291,99 @@ PhonePe-Transaction-Analytics-Dashboard/
 │   └── recharge-bills.png
 │
 └── documentation/
-    └── data_dictionary.md
+    ├── data_dictionary.md
+    └── insights.md
 ```
-------
 
-## How to Use
-1. Download `PhonePe_Transaction_Analytics.pbix`.
-2. Open it using Microsoft Power BI Desktop.
-3. If the original data source is not embedded/available, update the data-source path.
-4. Refresh the dataset.
-5. Use the page navigation and filters/slicers to explore the dashboard.
------
-
-## Portfolio Value
-This project demonstrates practical data-analysis skills including:
-
-- Business-question formulation
-- KPI design
-- Data modeling
-- Power Query
-- DAX-based analysis
-- Time-series analysis
-- Category analysis
-- Status analysis
-- Interactive dashboard design
-- Business insight generation
------
-
-## Author
-**Sourabh Mondal**
-
-Data Analysis | Power BI | SQL | Excel | Python
 ---
 
-## Disclaimer
-This project is created for educational and portfolio purposes. Any dataset used should be properly attributed and should not contain confidential or personally identifiable information.
-#   P h o n e P e - T r a n s a c t i o n - A n a l y t i c s - D a s h b o a r d 
+# 🚀 How to Use
+
+### Step 1
+
+Download the Power BI file:
+
+```text
+powerbi/PhonePe_Transaction_Analytics.pbix
+```
+
+### Step 2
+
+Open the file using **Microsoft Power BI Desktop**.
+
+### Step 3
+
+If Power BI requests the original data source, update the data-source path.
+
+### Step 4
+
+Refresh the dataset.
+
+### Step 5
+
+Use the dashboard filters, slicers, and visualizations to explore the analysis.
+
+---
+
+# 📚 Skills Demonstrated
+
+This project demonstrates practical skills in:
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Power Query
+- DAX
+- KPI Development
+- Data Visualization
+- Time-Series Analysis
+- Business Analysis
+- Dashboard Development
+- Business Insight Generation
+
+---
+
+# 📌 Project Highlights
+
+### Data Analysis
+
+✔ Transaction-level analysis  
+✔ Service-level analysis  
+✔ Category analysis  
+✔ Monthly trend analysis  
+✔ Payment-status analysis  
+
+### Power BI
+
+✔ Interactive dashboards  
+✔ KPI cards  
+✔ Filters and slicers  
+✔ Trend analysis  
+✔ Comparative visualizations  
+
+### Business Intelligence
+
+✔ Business-question driven analysis  
+✔ Performance monitoring  
+✔ Trend identification  
+✔ Insight generation  
+
+---
+
+# 👨‍💻 Author
+
+**Sourabh Mondal**
+
+Data Analyst | Power BI | SQL | Excel | Python
+
+---
+
+# ⚠️ Disclaimer
+
+This project is created for **educational and portfolio purposes**.
+
+The dashboard should not be considered an official PhonePe business report unless the underlying dataset has been officially sourced and authorized.
+
+Any dataset containing confidential, private, or personally identifiable information should not be published publicly.
+
+---
