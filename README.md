@@ -207,7 +207,7 @@ Analyzes loan amounts, loan categories, monthly trends, and payment status.
 
 Analyzes transfer amount, transfer type, transaction reasons, trends, and payment status.
 
-![Money Transfer Dashboard](screenshots/money-transfer.png)
+![Money Transfer Dashboard](screenshots/money-transfar.png)
 
 ---
 
