@@ -370,7 +370,10 @@ This project demonstrates practical skills in:
 
 **Sourabh Mondal**
 
-Data Analyst | Power BI | SQL | Excel | Python
+Data Analysis | Power BI | SQL | Excel
+
+- GitHub: https://github.com/sourabhmondal9?tab=repositories
+- LinkedIn: www.linkedin.com/in/sourabhmondal14081999
 
 ---
 
