@@ -225,46 +225,42 @@ The following section should contain insights calculated from the actual dashboa
 
 ### 📊 Overall Performance
 
-- Total transactions: **[Insert actual value]**
-- Total transaction amount: **[Insert actual value]**
-- Successful transactions: **[Insert actual value]**
-- Failed transactions: **[Insert actual value]**
+- Total transactions: **300K**
+- Total transaction amount: **3333M**
+- Successful transactions: **288K**
+- Failed transactions: **12k**
 
 ### 🏆 Service Performance
 
-- Highest transaction-value service: **[Insert service]**
-- Highest transaction-volume service: **[Insert service]**
-- Lowest transaction-value service: **[Insert service]**
+- Highest transaction-value service: **Insurance**
+- Highest transaction-volume service: **Recharge & Bills**
+- Lowest transaction-value service: **Recharge & Bills**
 
 ### 📅 Monthly Trend
 
-- Highest transaction-value month: **[Insert month]**
-- Lowest transaction-value month: **[Insert month]**
-- Major trend observed: **[Insert observation]**
+- Highest transaction-value month: **July**
+- Lowest transaction-value month: **February**
+- Major trend observed: **Transaction Value Increased steadily from April to July Before Decline In August**
 
 ### 🛡️ Insurance
 
-- Highest-performing insurance type: **[Insert type]**
-- Highest premium month: **[Insert month]**
-- Key observation: **[Insert insight]**
+- Highest-performing insurance type: **Car insurance**
+- Highest premium month: **July**
 
 ### 💰 Loans
 
-- Highest-performing loan category: **[Insert category]**
-- Highest loan-value month: **[Insert month]**
-- Key observation: **[Insert insight]**
+- Highest-performing loan category: **Auto Loan**
+- Highest loan-value month: **July**
 
 ### 💸 Money Transfer
 
-- Highest-performing transfer type: **[Insert type]**
-- Highest transfer-value month: **[Insert month]**
-- Key observation: **[Insert insight]**
+- Highest-performing transfer type: **UPI Transfer**
+- Highest transfer-value month: **May**
 
 ### 📱 Recharge & Bills
 
-- Highest-performing category: **[Insert category]**
-- Highest payment-value month: **[Insert month]**
-- Key observation: **[Insert insight]**
+- Highest-performing category: **Electricity**
+- Highest payment-value month: **October**
 
 > **Note:** The insights above should be replaced with actual values from the dashboard. Avoid publishing estimated or invented numbers.
 
